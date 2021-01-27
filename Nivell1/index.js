@@ -33,6 +33,7 @@ function passedOrNot(nota_examen) {
     }
 }
 
+passedOrNot(3);
 passedOrNot(7);
 
 /* EXERCICI 6 */
@@ -43,4 +44,23 @@ const u = text.replace(/o/g, 'u')
 
 /* EXERCICI 7 */
 
+const obj =  ['taula', 'cadira', 'ordinador', 'libreta']
+for (let i = 0; i < obj.length; i++){
+    const message = `L'objecte ${obj[i]} està a la posició ${[i]}.`
+    console.log(message)
+}
+
+
 /* EXERCICI 8 */
+
+function calculadora( operator, val1, val2){
+    if(operator == 'resta'){
+        console.log(val1 - val2)
+    } else if (operator == 'suma') {
+        console.log(val1 + val2)
+    } else if (operator == 'multiplicacion'){
+        console.log(val1 * val2)
+    }
+}
+			
+var resultat = calculadora('multiplicacion',40,20);
