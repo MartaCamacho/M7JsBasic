@@ -1,13 +1,13 @@
 /* EXERCICI 1 */
 
-console.log('Hola mundo')
+console.log('Hola mundo');
 
 /* EXERCICI 2 */
 function alertMessage(message) {
-    alert(message)
-}
+    alert(message);
+};
 
-window.onload = alertMessage('¡Me llamo marta!')
+window.onload = alertMessage('¡Me llamo marta!');
 
 /* EXERCICI 3 */
 
@@ -30,8 +30,8 @@ function passedOrNot(nota_examen) {
         alertMessage(`Ohhh! has suspendido el examen con un ${nota_examen}`)
     } else {
         alertMessage(`Oleee! has aprobado el examen con un ${nota_examen}`)
-    }
-}
+    };
+};
 
 passedOrNot(3);
 passedOrNot(7);
@@ -39,28 +39,28 @@ passedOrNot(7);
 /* EXERCICI 6 */
 
 const text = 'Tinc un cotxe de color blau';
-const blau = text.replace('blau', 'verd')
-const u = text.replace(/o/g, 'u')
+const blau = text.replace('blau', 'verd');
+const u = text.replace(/o/g, 'u');
 
 /* EXERCICI 7 */
 
-const obj =  ['taula', 'cadira', 'ordinador', 'libreta']
+const obj =  ['taula', 'cadira', 'ordinador', 'libreta'];
 for (let i = 0; i < obj.length; i++){
     const message = `L'objecte ${obj[i]} està a la posició ${[i]}.`
-    console.log(message)
-}
+    console.log(message);
+};
 
 
 /* EXERCICI 8 */
 
 function calculadora( operator, val1, val2){
     if(operator == 'resta'){
-        console.log(val1 - val2)
+        console.log(val1 - val2);
     } else if (operator == 'suma') {
-        console.log(val1 + val2)
+        console.log(val1 + val2);
     } else if (operator == 'multiplicacion'){
-        console.log(val1 * val2)
-    }
-}
+        console.log(val1 * val2);
+    };
+};
 			
 var resultat = calculadora('multiplicacion',40,20);
